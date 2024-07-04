@@ -10,4 +10,5 @@ Debugshala is dedicated to providing high-quality, accessible education in front
 
 **Clone the Repository**:
    
-   git clone https://github.com/yourusername/debugshala-frontend-course.git](https://github.com/Debugshala/Frontend_Heist.git
+   git clone https://github.com/yourusername/debugshala-frontend-course.git
+   (https://github.com/Debugshala/Frontend_Heist.git
