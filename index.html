@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Heading tags -->
+     <h1>HTML Tutorial</h1>
+     <h2>HTML Tutorial</h2>
+     <h3>HTML Tutorial</h3>
+     <h4>HTML Tutorial</h4>
+     <h5>HTML Tutorial</h5>
+     <h6>HTML Tutorial</h6>
+
+     <!-- p, pre, img, a -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quis veniam consectetur quasi quibusdam vitae nihil atque
+          in repudiandae corporis voluptates incidunt minima itaque quam
+           earum eveniet rerum ex optio, accusamus eaque totam doloremque
+            delectus hic? Rem, non, culpa ratione excepturi accusamus et
+             sunt cum ea, magnam cumque at voluptatem pariatur.</p>
+    <pre>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         In, eveniet, non iure sit nesciunt ad molestiae optio sapiente
+          reiciendis incidunt tempora eum, repellendus voluptatibus maiores
+           tenetur illo facere fugiat. Iste ratione illum obcaecati soluta fugiat
+            dicta eligendi consequatur deserunt voluptatum magni. Ut incidunt laborum
+             quasi animi veniam illo quidem ipsa.</pre>
+
+    <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" style="width: 50vw;" alt="">
+
+    <img src="./Assets/Images/prac.jpg" alt="image is unavailable">
+
+    <a href="https://twitter.com">Twitter</a>
+
+    <a href="https://science.nasa.gov/solar-system/">
+        <img src="./Assets/Images/prac.jpg" alt="">
+    </a>
+
+    
+    <!-- Using Map and Area tags -->
+
+    <img src="./Assets/Images/prac.jpg" usemap="#planet" alt="">
+
+    <map name="planet">
+        <area shape="circle" coords="80, 116, 60" href="https://science.nasa.gov/mercury/">
+        <area shape="circle" coords="440, 272, 60" href="https://science.nasa.gov/jupiter/">
+    </map>
+
+
+    <!-- HTML Table  -->
+
+     <table style="border: 1px solid black; border-collapse: collapse; width: 50vw; height: 50vh; text-align: center; font-size: 25px;">
+      <tr>
+        <th style="border: 1px solid black;">S.No.</th>
+        <th style="border: 1px solid black;">Name</th>
+        <th style="border: 1px solid black;">Class</th>
+        <th style="border: 1px solid black;">Subject</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black;">01</td>
+        <td style="border: 1px solid black;">Prem Kumar</td>
+        <td style="border: 1px solid black;">XII</td>
+        <td style="border: 1px solid black;">PCM</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black;">02</td>
+        <td style="border: 1px solid black;">Nikhil Raghuvanshi</td>
+        <td style="border: 1px solid black;">XII</td>
+        <td style="border: 1px solid black;">PCB</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black;">03</td>
+        <td style="border: 1px solid black;">Tejasvini Tiwari</td>
+        <td style="border: 1px solid black;">XII</td>
+        <td style="border: 1px solid black;">PCMB</td>
+      </tr>
+     </table>
+
+
+     <!-- HTML List -->
+
+    <h2>Unordered List</h2>
+    <ul style="list-style: circle;">
+      <li>Grapes</li>
+      <li>Papaya</li>
+      <li>Mango</li>
+      <li>Orange</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol style="list-style: lower-greek;">
+      <li>RR</li>
+      <li>Range Rover</li>
+      <li>BMW</li>
+      <li>Mercedes</li>
+      <li>G-Wagon</li>
+    </ol>
+
+
+    <!-- Div and Span containers : (Block and Inline Elements) -->
+
+    <div style="background-color: darkcyan;">Lorem ipsum, dolor sit amet consectetur adipisicing</div>
+    <span style="background-color: darkcyan;">Lorem ipsum, dolor sit amet consectetur adipisicing</span>
+
+
+    <!-- HTML Form -->
+
+    <form>
+      <label for="username">Your Name : </label>
+      <input type="text" name="username" placeholder="Email" required id=""><br><br>
+      <label for="contact">Your contact : </label>
+      <input type="number" name="contact" id=""><br><br>
+      <input type="password" name="" id=""><br><br>
+      <input type="email" name="" id=""><br><br>
+      <label for="attachFile">Attach Your File Here : </label>
+      <input type="file" name="" id=""><br><br>
+      <label for="gender">Choose your gender : </label>
+      Male <input type="radio" name="gender" id="">
+      Female <input type="radio" name="gender" id="">
+      Others <input type="radio" name="gender" id=""><br><br>
+      <label for="hobbies">Choose your hobby : </label>
+      Playings Sports <input type="checkbox" name="" id="">
+      Dancing <input type="checkbox" name="" id="">
+      Reading <input type="checkbox" name="" id="">
+      Singing <input type="checkbox" name="" id=""><br><br>
+      <input type="range" min="0" max="100" value="80" style="width: 50vw;" name="" id="">
+      <label for="course">Choose any course : </label>
+      <select name="" id="">
+        <option value="">none</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="BCA">BCA</option>
+        <option value="BA">BA</option>
+      </select><br><br>
+      <label for="speci">choose your branch : </label>
+      <select name="" id="">
+        <option value="">none</option>
+        <optgroup label="B.Tech">
+          <option value="IT">IT</option>
+          <option value="CS">CS</option>
+          <option value="Civil">Civil</option>
+          <option value="Mechanical">Mechanical</option>
+          <option value="EC">EC</option>
+        </optgroup>
+        <optgroup label="B.Sc">
+          <option value="Zoology">Zoology</option>
+          <option value="CS">CS</option>
+          <option value="Agriculture">Agriculture</option>
+          <option value="Chem">Chem</option>
+          <option value="Horticulture">Horticulture</option>
+        </optgroup>
+      </select>
+      <button type="submit">Submit</button>
+      <input type="reset" name="" id="">
+    </form>
+
+
+
+  </body>
+</html>
+  
