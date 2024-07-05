@@ -1,0 +1,44 @@
+/* CSS Selector */
+/* 1. Tag Selector */
+/* 2. Combinator Selector */
+/* 3. Class Selector */
+/* 4. ID Selector */
+/* 5. Universal Selector */
+
+/* #unique{
+    background-color: yellow;
+}
+.box{
+    background-color: green;
+} */
+
+/* *{
+    background-color: blue;
+}
+
+.box{
+    background-color: green;
+}
+
+#unique{
+    background-color: burlywood;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    background-image: url("../Images/prac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
