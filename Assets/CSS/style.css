@@ -1,28 +1,99 @@
-/* CSS Selector */
+/* 
+Three Differences Between Inline, Internal, and External CSS
+
+--> Scope and Maintenance:
+
+- Inline CSS: Affects only a single element. Difficult to maintain if many elements need the same style.
+- Internal CSS: Affects a single HTML document. Easier to maintain than inline but limited to one document.
+- External CSS: Affects multiple HTML documents. Most maintainable and scalable option for large projects.
+
+--> Loading and Performance:
+
+- Inline CSS: Loads quickly since styles are part of the HTML. Can bloat HTML file size.
+- Internal CSS: Loads with the HTML document. Can slow down page rendering if the style block is large.
+- External CSS: Separate file loading may cause additional HTTP requests, but it enables caching for faster subsequent loads.
+
+--> Reusability:
+
+- Inline CSS: Not reusable. Each element must be individually styled.
+- Internal CSS: Reusable within the same document but not across multiple documents.
+- External CSS: Highly reusable across multiple documents, ensuring a consistent look and feel.
+*/
+
+
+/* CSS Selectors */
 /* 1. Tag Selector */
 /* 2. Combinator Selector */
 /* 3. Class Selector */
 /* 4. ID Selector */
 /* 5. Universal Selector */
 
-/* #unique{
+
+/* 1. Tag Selector */
+
+/* div{
+    background-color: burlywood;
+    border: 1px solid black;
+} */
+
+
+/* 2. Grouping | Combinator Selector */
+
+/* div, span, p{
+    background-color: orange;
+} */
+
+
+/* 3. Class Selector */
+
+/* div{
+    background-color: green;
+}
+
+.box1{
+    background-color: darkcyan;
+}
+
+.box{
+    background-color: yellow;
+} */
+
+
+
+/* 4. Id Selector */
+
+/* #cont{
+    background-color: darkcyan;
+}
+
+.container{
+    background-color: green;
+}
+
+
+div{
+    background-color: yellow;
+} */
+
+
+
+/* 5. Universal Selector */
+
+/* 
+*{
+    background-color: red;
+}
+
+.box{
     background-color: yellow;
 }
-.box{
-    background-color: green;
-} */
 
-/* *{
-    background-color: blue;
-}
+#cont{
+    background-color: darkblue;
+} 
+*/
 
-.box{
-    background-color: green;
-}
 
-#unique{
-    background-color: burlywood;
-} */
 
 
 *{
