@@ -1,4 +1,6 @@
 /* 
+05/07/2024
+
 Three Differences Between Inline, Internal, and External CSS
 
 --> Scope and Maintenance:
@@ -94,9 +96,7 @@ div{
 */
 
 
-
-
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -110,6 +110,53 @@ div{
     background-repeat: no-repeat;
     background-size: cover;
 }
+ */
 
+
+
+/* 06/07/2024 */
+/* background & display prop */
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .blockEle{
+    width: 48vw;
+    height: 48vh;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.inlineEle{
+    width: 48vw;
+    height: 48vh;
+    background-color: darkcyan;
+    display: inline-block;
+}
+
+
+.parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: auto 600px 200px;
+    gap: 20px;
+    grid-template-rows: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+} 
+
+.childCont{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+ */
 
 
