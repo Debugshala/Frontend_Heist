@@ -160,3 +160,39 @@ div{
  */
 
 
+
+/* display flexbox */
+/* The display: grid property in CSS is used to create a grid layout. It allows you to define rows and columns in a grid container, positioning child elements into a structured layout. */
+/* The display: flex property in CSS is used to create a flexible box layout. It allows you to align and distribute space among items within a container, even when their sizes are unknown or dynamic. */
+
+/*
+.parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+    align-content: space-between; 
+}
+
+.childCont{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+.box1{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 180px; 
+}
+
+.box2{
+    position: absolute;
+}
+*/
