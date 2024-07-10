@@ -278,3 +278,71 @@ div{
 } */
 
 
+
+
+    /* Size convention | Transform | Transition */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-size: 15px;
+}
+
+.parCont{
+    width: 80vw;
+    height: 90vh;
+    background-color: brown;
+    font-size: 30px;
+}
+
+.childCont{
+    width: 70%;
+    height: 70%;
+    background-color: bisque;
+    font-size: 3rem;
+} */
+
+/* 
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: darkcyan;
+} */
+
+.parCont{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    align-content: center;
+}
+
+.childCont{
+    width: 250px;
+    height: 150px;
+    background-color: darkblue;
+    color: white;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    /* border: 200px ridge black; */
+    /* transform: scale(2, 3); */
+    /* transform: skew(20deg, 20deg); */
+    /* transform: rotate(720deg); */
+    /* transform: translateY(-300px); */
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.childCont:hover{
+    transform: scale(3);
+    background-color: yellow;
+    color: black;
+}
+
