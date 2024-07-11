@@ -346,3 +346,137 @@ div{
     color: black;
 }
 
+
+/* 11/07/2024 */
+
+    
+    /* Pseudo Class */
+
+    /* .childCont:hover{
+        background-color: black;
+        color: aqua;
+    }
+    
+    .childCont a:link{
+        color: white;
+    }
+    
+    .childCont a:visited{
+        color: green;
+    }
+    
+    .childCont a:active{
+        color: orange;
+    }
+    
+    .parCont input{
+        width: 20%;
+        height: 10%;
+    }
+    
+    .parCont input:focus{
+        outline: none;
+    } */
+    
+
+    /* Psuedo Element */
+
+    /* .childCont p::first-letter{
+        font-size: 180px;
+        background-color: black;
+        color: aqua;
+    } */
+    /* .childCont p::first-line{
+        font-size: 100px;
+        background-color: black;
+        color: aqua;
+    } */
+    
+    /* .childCont p::selection{
+        font-style: italic;
+        background-color: black;
+        color: aqua;
+    } */
+
+    /* .parCont input{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .parCont input::placeholder{
+        color: orange;
+        padding-left: 40px;
+    } */
+    
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .parCont{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .childCont{
+        width: 22%;
+        height: 10%;
+        background-color: transparent;
+        font-size: 3.5em;
+        color: aqua;
+        letter-spacing: 5px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto;
+        font-weight: 600;
+        position: relative;
+        cursor: pointer;
+        /* transform-origin: left; */
+    }
+
+    .childCont::before{
+        content: '';
+        width: 100%;
+        height: 5%;
+        background-image: linear-gradient(to right, black, rgb(0, 94, 187));
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scaleX(0);
+        transition: transform 0.5s ease-in-out;
+        transform-origin: right;
+    }
+    
+    .childCont::after{
+        content: '';
+        width: 100%;
+        height: 5%;
+        background-image: linear-gradient(to right, black, rgb(0, 94, 187));
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        transition: transform 0.5s ease-in-out;
+        transform-origin: right;
+    }
+
+    .childCont:hover::before{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    .childCont:hover::after{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+
+
