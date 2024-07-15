@@ -1,0 +1,30 @@
+1. Check if a number is odd or even in JavaScript. 
+
+2. Find the largest and smallest of two number. 	
+
+3. Find the largest and smallest of three number
+
+4. Check if a triangle is equilateral, scalene, or isosceles
+
+5. Find that a given number is present in given range or not
+
+6. Perform arithmetic operations on two numbers 
+
+7. Check if a year is leap year or not
+
+8. Find the grade for input marks for five subjects
+
+9. Find number of days in a given month
+
+10. Final Result for five subjects (percentage and grading system)
+
+11. check whether the number is positive, negative or zero.
+
+12. Check if input variable is a number or not (you can use isNaN() method in the conditions)
+
+13. Write a JavaScript program to check if a number is divisible by 3, 5, or 7.
+
+14. sort two numbers
+
+15. sort three numbers
+
