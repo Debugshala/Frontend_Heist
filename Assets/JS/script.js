@@ -84,35 +84,107 @@
 
 // Switch Statement : 
 
-let day = 8;
+// let day = 8;
 
-switch (day){
-    case 1:
-        console.log("it's Monday");
-        break;
-    case 2: 
-        console.log("it's Tuesday");
-        break;
-    case 3:
-        console.log("it's Wednesday");
-        break;
-    case 4:
-        console.log("it's thursday");
-        break;
-    case 5:
-        console.log("it's friday");
-        break;
-    case 6:
-        console.log("it's saturday");
-        break;
-    case 7:
-        console.log("it's Ravivar");
-        break;
-    default:
-        console.log("Invalid day");
-}
+// switch (day){
+//     case 1:
+//         console.log("it's Monday");
+//         break;
+//     case 2: 
+//         console.log("it's Tuesday");
+//         break;
+//     case 3:
+//         console.log("it's Wednesday");
+//         break;
+//     case 4:
+//         console.log("it's thursday");
+//         break;
+//     case 5:
+//         console.log("it's friday");
+//         break;
+//     case 6:
+//         console.log("it's saturday");
+//         break;
+//     case 7:
+//         console.log("it's Ravivar");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
 
 
+// Data Types : Primitive and Reference
+// Primitive : Number, String, Boolean, undefined. null
+// Reference : Array and Object
+
+// let empObj ={
+//     empName: "Prem Kumar",
+//     empAge: 20,
+//     empSalary: 25000,
+//     empDes: "Op. Manager",
+//     empId: 420
+// }
+
+// console.log(empObj);
+
+
+// let num1 = Number(prompt("Enter 1st value"));
+// let num2 = Number(prompt("Enter 2nd value"));
+// let num3 = Number(prompt("Enter 3rd value"));
+
+// if(num1 > num2 && num1 > num3){
+//     if(num2 > num3){
+//         console.log(`${num1} - ${num2} - ${num3}`);
+//     }
+//     else{
+//         console.log(`${num1} - ${num3} - ${num2}`);
+//     }
+// }
+// else if(num2 > num1 && num2 > num3){
+//     if(num1 > num3){
+//         console.log(`${num2} - ${num1} - ${num3}`);
+//     }
+//     else{
+//         console.log(`${num2} - ${num3} - ${num1}`);
+//     }
+// }
+// else if(num3 > num1 && num2 < num3){
+//     if(num1 > num2){
+//         console.log(`${num3} - ${num1} - ${num2}`);
+//     }
+//     else{
+//         console.log(`${num3} - ${num2} - ${num1}`);
+//     }
+// }
+// else{
+//     console.log("All three values are equal");
+// }
+
+
+// Loops : while, do-while, for, forEach, for-in
+// loop ke kaam karne ka taqniq : 1. initialization variable    2. conditions apply     3. incre | decre
+
+// 1. while : 
+
+// let num = 1;
+// while(num < 11){
+//     console.log(num);
+//     num++;
+// }
+
+// 2. do-while : 
+
+// let num = 10;
+// do{
+//     console.log(num);
+//     num--;
+// }while(num > 0);
+
+// 3. for loop : 
+
+// for(let num = 1; num <= 10; num++){
+//     console.log(num);
+// }
 
 
 
