@@ -189,5 +189,111 @@
 
 
 
+// Nested For loop : 
+
+// for(let row = 1; row <= 100; row += 10){
+//     for(let col = row; col < row + 10; col++){
+//         if(row == 1){
+//             document.write(col + " &nbsp;&nbsp;&nbsp;&nbsp;");
+//         }
+//         else{
+//             document.write(col + " &nbsp;&nbsp;");
+//         }
+//     }
+//     document.write("<br>");
+// }
+
+
+
+// Functions in JavaScript : 
+// Standard Function 
+// function sum(){
+//     console.log(20 + 25);
+// }
+
+// sum();
+
+
+// Parametric Function : 
+
+// function sum(num1, num2){
+//     console.log(num1 + num2);
+// }
+
+// sum(20, 25);
+// sum(100, 25);
+// sum(200, 15);
+// sum(30, 65);
+
+
+// Function with return values : 
+
+// function sum(a, b){
+//     return a + b;
+// }
+
+// let result = sum(50,60);
+
+// console.log(result);
+
+
+// real life example for the function which will return some values :
+
+let stduent_name = prompt("Enter the student's name");
+let mathsMarks = Number(prompt("Enter marks for maths"));
+let engMarks = Number(prompt("Enter marks for english"));
+let hnMarks = Number(prompt("Enter marks for hindi"));
+let sstMarks = Number(prompt("Enter marks for sst"));
+let scMarks = Number(prompt("Enter marks for sc"));
+
+
+function marks(maths, eng, hn, sst, sc){
+    let obtained_marks = eng + hn + sc + maths + sst;
+    return obtained_marks;
+}
+
+let ob_mrks = marks(mathsMarks, engMarks, hnMarks, sstMarks, scMarks);
+
+function percentage(obt_marks){
+    let total_marks = 500;
+    let percent = obt_marks/total_marks * 100;
+    return percent;
+}
+
+let percent = parseInt(percentage(ob_mrks));
+
+function grading(prct){
+    if(prct <= 100 && prct > 80){
+        document.write(`${stduent_name} has scored ${ob_mrks} marks and got ${prct}% and secured A Grade`)
+    }
+    else if(prct <= 80 && prct > 60){
+        document.write(`${stduent_name} has scored ${ob_mrks} marks and got ${prct}% and secured B Grade`)
+    }
+    else if(prct <= 60 && prct > 40){
+        document.write(`${stduent_name} has scored ${ob_mrks} marks and got ${prct}% and secured C Grade`)
+    }
+    else if(prct <= 40 && prct >= 33){
+        document.write(`${stduent_name} has scored ${ob_mrks} marks and got ${prct}% and secured D Grade`)
+    }
+    else if(prct < 33){
+        document.write(`Hello ${stduent_name}, you are successfully failed | better luch for the next year`);
+    }
+    else{
+        document.write("invalid perncentage");
+    }
+}
+
+grading(percent);
+
+
+
+
+
+
+
+
+
+
+
 
 
