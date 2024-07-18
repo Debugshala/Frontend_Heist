@@ -1,0 +1,14 @@
+Array Practice Questions :
+
+1. Insert an item into array at specific index in JavaScript ?
+2. Remove an element from an array in JavaScript?
+3. From a new array and remove all the duplicate elements in a JavaScript array? (It should be a unique array)
+4. Replace an item from an array in JavaScript?
+5. How do you check if an element exists in an array?
+6. How do you swap any two numbers in a given array?
+7. Find the sum of each and every element present in an array. (Code should be optimized so that if user will change the length of  he array it should be working properly)
+8. How to Create an unique Array using Union two same or different Arrays in JavaScript ?
+9. Reverse an array in JavaScript?
+10. Calculate the length of an array using JavaScript?
+
+
