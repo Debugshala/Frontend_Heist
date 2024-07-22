@@ -288,6 +288,176 @@ grading(percent);
 
 
 
+// Array & String Methods :
+
+// Array Methods :
+
+// 1. sort() :
+// let arr = ["bhavesh", "amit", "vivek", "Shivam", "Pawan", "Avani"];
+// let arr = [20,10,50,30,66,33];
+// document.write(arr + "<br>");
+// arr.sort();
+// document.write(arr + "<br>");
+
+// 2. reverse() :
+// arr.reverse();
+// document.write(arr + "<br>");
+
+// 3. pop() :
+// arr.pop();
+// arr.pop();
+// arr.pop();
+// document.write(arr + "<br>");
+
+// 4. push() :
+// arr.push([true, 65]);
+// document.write(arr + "<br>");
+
+// 5. shift() :
+// arr.shift();
+// document.write(arr + "<br>");
+
+// 6. unshift() :
+// arr.unshift("25");
+// document.write(arr + "<br>");
+
+// 7. concat() :
+// let a = [10,20,30];
+// document.write(a + "<br>");
+// let b = [40,50,60];
+// document.write(b + "<br>");
+// let c = a.concat(b, arr);
+// document.write(c + "<br>");
+
+// 8. join() :
+// let d = c.join(' ');
+// document.write(d);
+
+// 9. slice() :
+// let arr = ["bhavesh", "amit", "vivek", "Shivam", "Pawan", "Avani"];
+// document.write(arr + "<br>");
+// let b = arr.slice(3, arr.length-1);
+// document.write(b + "<br>");
+
+// 10 splice() :
+// let arr = ["bhavesh", "amit", "vivek", "Shivam", "Pawan", "Avani"];
+// document.write(arr + "<br>");
+// arr.splice(3, 0, "JavaScript", " Java", "PHP"); // splice(index, how many deletes, what to add)
+// document.write(arr + "<br>");
+
+// 11. isArray() :
+// let arr = [];
+// // let name = ["Sneha"];
+// document.write(arr + "<br>");
+// if(Array.isArray(arr)){
+//     document.write("'name' is an array.");
+// }
+// else{
+//     document.write("'name' is not a array.");
+// }
+
+// 12. indexOf() :
+// let arr = ["bhavesh","Sneha" , "Amit", "Mohit", "Shivam", "vivek", "Sagar", "Shivam", "Amit", "Pawan", "Avani"];
+// let a = arr.indexOf("Shivam", 5);
+// document.write(a);
+
+// 13. lastIndexOf :
+// let b = arr.lastIndexOf("Amit");
+// document.write(b);
+
+// 14. some() :
+// let arr = [10,2,3,12,15,8];
+// document.write(arr + "<br>");
+// let a = arr.some((b) => {
+//     return b>=18;
+// });
+// document.write(a);
+
+function ages(b) {
+  return b >= 18;
+}
+
+// 15. every() :
+//   let ary = [100,20,30,120,150,18];
+//   document.write(ary + "<br>");
+//   let b = ary.every(ages);
+//   document.write(b);
+
+// 16. filter() :
+//   let ary = [10,20,30,12,155,18];
+//   document.write(ary + "<br>");
+//   let arr = ary.filter(ages);
+//   document.write(arr);
+//   console.log(arr);
+
+// 17. find() :
+//   let ary = [10,20,30,12,15,80];
+//   document.write(ary + "<br>");
+//   let arr = ary.find(ages);
+//   document.write(arr);
+
+// 18. findIndex() :
+//   let ary = [10,15,20,30,120,15,80];
+//   document.write(ary + "<br>");
+//   let arr = ary.findIndex(ages);
+//   document.write(arr);
+
+// 19. includes() :
+//   let ary = [10,15,2,30,12,15,80];
+//   document.write(ary + "<br>");
+//   let arr = ary.includes(15);
+//   document.write(arr);
+
+// 20. toString() :
+// let ary = [10,15,2,30,12,15,80];
+// document.write(ary + "<br>");
+// document.write(Array.isArray(ary) + "<br>");
+// document.write(typeof(ary) + "<br>");
+// let arr = ary.toString();
+// document.write(arr + "<br>");
+// document.write(Array.isArray(arr) + "<br>");
+// document.write(typeof(arr));
+
+// 21. forEach() :
+// console.time();
+// let arararaaa = [10, 50, 30, 890, 88];
+// arararaaa.forEach(function (data, ind) {
+//   document.write(`${ind} : ${data} <br>`);
+// });
+// console.timeEnd();
+
+//   function func(val, i){
+//       document.write(i + " : " + val + "<br>");
+//   }
+// console.time();
+// for (let i = 0; i < arararaaa.length; i++) {
+//   document.write(i + " - " + arararaaa[i] + "<br>");
+// }
+// console.timeEnd();
+
+// 22. map() :
+// let arr = [10,20,30];
+// let ary = arr.map(function(val){
+//     return val * 20;
+// });
+// document.write(arr + "<br>");
+// document.write(ary + "<br>");
+
+
+
+
+// let arararaaa = [10, 50, 30, 890, 88];
+
+// let num = arararaaa.reduce((a ,b) => {
+//     let red_num = a / b;
+//     return red_num;
+// })
+
+// console.log(num);
+// console.log(arararaaa);
+
+
+
 
 
 
